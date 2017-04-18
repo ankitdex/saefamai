@@ -154,11 +154,11 @@
 .button_1 {
     position: fixed;
     top: 800px;
-    left: 265px;
-    background-color: #ffd30a;
+    left: 240px;
     border: none;
+    background-color: #ffd30a;
     color: black;
-    padding: 6px 12px;
+    padding: 6px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -173,12 +173,15 @@
     -moz-transition:.25s;
     -webkit-transition:.25s;
     /* ...and now for the proper property */
-    transition:.15s;
+    transition:.25s;
+
+     -webkit-transform: scale(1,1);
 }
 
 button:Hover {
     color: #51fbf0;
     background-color: black;
+    -webkit-transform: scale(1.05,1.05);
     
 }
 
