@@ -45,9 +45,9 @@
 .Section_1 {
 	position: absolute;
 	top: 1000px;
-	left: 300px;
+	left: 325px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 21px;
 	line-height: 30px;
 	/*font-weight: bolder;*/
@@ -58,9 +58,9 @@
 .Section_1_support_text {
 	position: absolute;
 	top: 1100px;
-	left: 410px;
+	left: 420px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 21px;
 	line-height: 30px;
 	/*font-weight: bolder;*/
@@ -80,9 +80,9 @@
 .Section_2 {
 	position: absolute;
 	top: 1500px;
-	left: 505px;
+	left: 510px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: bolder;
@@ -93,9 +93,9 @@
 .Section_2_support_text {
 	position: absolute;
 	top: 1540px;
-	left: 360px;
+	left: 370px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 21px;
 	line-height: 30px;
 	/*font-weight: bolder;*/
@@ -113,9 +113,9 @@
 .Section_3 {
 	position: absolute;
 	top: 2150px;
-	left: 380px;
+	left: 400px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 21px;
 	line-height: 30px;
 	/*font-weight: bolder;*/
