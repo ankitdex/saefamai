@@ -45,6 +45,7 @@ img .left_side {
 	padding: 0;
 	max-width: 100%;
 	border: none;
+	max-height: 50px;
 }
 
 img .two {
