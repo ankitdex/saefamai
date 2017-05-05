@@ -11,7 +11,7 @@ p {
 	
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1080px) {
 	
 p {
 	text-align: center;
@@ -23,7 +23,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 720px) {
 	
 p {
 	text-align: center;
