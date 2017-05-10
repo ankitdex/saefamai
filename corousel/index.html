@@ -12,26 +12,26 @@
 
 <style type="text/css">
   
-
-
-.container {
-  max-width: 100%;
-
-}
-
-  @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
    .carousel-caption {
     display: none;
 
   }
 }
 
+.carousel-indicators li {
+    border-color: white;
+
+}
+
+.carousel-indicators li.active {
+    background-color: ivory;
+}
+
 .carousel-control.right, .carousel-control.left {
     background-image:none;
     color: white;
 }
-
-
 
 .navbar {
     margin-bottom: 0;
@@ -42,48 +42,41 @@
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
+    opacity: 20%;
 } 
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: white !important;
-
-}
 
 .navbar-right {
   padding-right: 5%;
+  color: white;
 }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: Ivory !important;
+
+}
+
+
 
 .navbar-brand {
   padding-left: 80px;
   font-weight: bold;
+  color: #f4511e !important;
 }
+
 
 .navbar-fixed-top {
   position: fixed;
 }
 
-.container-fluid {
-      padding: 60px 50px;
-  }
-
-
-.logo {
-    padding-top: 5%;
-    left: 70%;
-    color: #f4511e;
-    font-size: 100px;
+.bg-grey {
+  background-color: ivory;
 }
 
-.carousel-control {
-  top: -500px;
+.navbar-fixed-top {
+  background-color: Ivory !important;
+  
 }
-
-.col-sm-5 {
-  left: 25%;
-} 
-
-
 
 </style>
 
@@ -102,7 +95,6 @@
         <span class="icon-bar"></span> 
       </button>
       <a class="navbar-brand" href="#">THE UNITED</a>
-       <!-- <img src="images/logo.jpg" width="128px" height="25px"> -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -116,8 +108,7 @@
 </nav>
 
 
-<div class="container" style="width: 100%; padding: 0;" > 
-
+<div class="container" style="width: 100%; padding:0;""> 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -128,7 +119,8 @@
       <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
-<!-- Wrapper for slides -->
+
+<!-- slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="images/G.jpg" alt="Los Angeles" style="width:100%;">
@@ -138,13 +130,14 @@
         </div>
       </div>
 
-      <div class="item">
+
+    <div class="item">
         <img src="images/H.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>George Sarris</h3>
           <p>AN-32</p>
         </div>
-      </div>
+    </div>
     
     <div class="item">
         <img src="images/E.jpg" alt="Chicago" style="width:100%;">
@@ -179,29 +172,28 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
-
-
+  </div>
+</div>
+    
     <!-- Section 2 -->
 
-    <div class="container-fluid bg-grey">
+<div class="container-fluid bg-grey" style="padding: 0 0 5% 0">
   <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span> 
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2>
-      <h4><strong>Helping Government & Businesses Speak Indian</strong></h4> 
-      <p><em>Become a platform that serves local languages to companies</em></p>
-    </div>
+    
+      <div class="col-sm-12" style="padding: 0 10% 0 10%">
+        <h2 style="text-align: center; padding-top: 5%; color: #f4511e">Our Values</h2>
+        <h4 style="text-align: center;"><strong>Helping Government & Businesses Speak Indian</strong> </h4> 
+        <p style="text-align: center;"><em>Become a platform that serves local languages to companies</em></p>
+      </div>
   </div>
 </div>
 
 <!-- Contact Information -->
 
-  <div class="container-fluid_bg-grey">
+ <!--  <div class="container-fluid_bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-4">
       <p><em>We'll get back to you within 24 hours.</em></p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore, IN</p>
       <p><span class="glyphicon glyphicon-phone"></span> +91 1515151515</p>
@@ -223,9 +215,7 @@
         </div>
       </div> 
     </div>
-  </div>
-</div>
+  </div> -->
 
-  </div>
 </body>
 </html>
