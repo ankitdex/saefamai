@@ -4,18 +4,147 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
-	overflow-y: hidden; 
 	margin: 0;
 }
 
-.dropdown {
-	top: 10%;
+@media only screen and (max-width: 1920px) {
+
+p {
+	text-align: center;
+	position: absolute;
+	font-size: 21px;
+	line-height: 1.5em;
+	padding: 20% 15% 2% 15%;
+	color: white;
+	text-shadow: 1px 1px 0.2px black;
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	
+p {
+	text-align: center;
+	position: absolute;
+	font-size: 21px;
+	line-height: 1.5em;
+	padding: 20% 10% 2% 10%;
+	color: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	
+p {
+	text-align: center;
+	position: absolute;
+	font-size: 16px;
+	line-height: 1.4em;
+	padding: 18% 8% 3% 8%;
+	color: white;
+  }
+
+/*.button {
+    position: inherit;
+    top: 30%;
+    border: none;
+    background-color: orange;
+    color: #03202a;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: nonegit ;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1px 405px 0px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Inconsolata";
+    z-index: 900;
+
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    
+    transition:.25s;
+
+     
+}*/
+
+}	
+
+.left_side {
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 30%;
+    left: 17.5%;
+    border: none;
+    background-color: orange;
+    color: #03202a;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: nonegit ;
+    display: inline-block;
+    font-size: 17px;
+    margin: 1px 405px 0px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Inconsolata";
+    z-index: 900;
+
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    /* ...and now for the proper property */
+    transition:.25s;
+
+     /*-webkit-transform: scale(1,1);*/
+}
+
+/*img .left_side {
+	position: absolute;
+	z-index: -1;
+	top: -0.1px;
+	left: -0.1px;
+	padding: 0;
+	max-width: 100%;
+	border: none;
+	max-height: 50px;
+
+
+
+img .two {
+
+	position: absolute;
+	top: 80%;
+	padding: 0;
+	max-width: 100%;
 }
 
 
-.carousel-caption {
-    
- }
+/*#square {
+	margin: 0;
+	width: 1900px;
+	height: 300px;
+	background: pink;
+	z-index: -1;
+	max-width: 100%;
+}
+
+#rectangle {
+	margin: 0 0 0 -10px;
+	width: 4400px;
+	height: 300px;
+	background: pink;
+	transform: rotate(6deg);
+	max-width: 201%;
+	
+}*/
 
 
 
+		

@@ -1,31 +1,71 @@
-
-
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>My tests</title>
 </head>
 <body>
+	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
 
-<div class="container">
-  <h2>Dropdown Example</h2>
-  <p>The data-toggle="dropdown" attribute is used to open the dropdown menu.</p>
-  <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Dropdown Example
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>    
-    </ul>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/mig29.jpg" alt="Plane">
+    </div>
+
+    <div class="item">
+      <img src="images/cockpit.jpg" alt="cockpit">
+    </div>
+
   </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
+	
+
+	<div class="left_side">
+			<p>A mouse (plural: mice) is a small rodent characteristically having a pointed snout, small rounded ears, a body-length scaly tail and a high breeding rate. The best known mouse species is the common house mouse (Mus musculus). It is also a popular pet.</p>
+		
+			<picture>
+				<source media="(min-width: 1024px)" srcset="images/large.png">
+				<source media="(min-width: 490px)" srcset="images/medium.png">
+				<img src="images/small.png" width="100%" alt="Cityscape">
+			</picture>
+
+
+	</div>	
+		
+
+	
+	<div class="two">
+			<picture>
+				<source media="(min-width: 1024px)" srcset="images/plane_large.png">
+				<source media="(min-width: 490px)" srcset="images/plane_medium.png">
+				<img src="images/plane_small.png" width="100%" alt="JetPlane">
+			</picture>
+	</div>
+
+	<!-- <figure id="square"></figure>
+	<figure id="rectangle"></figure>
+ -->
+	 
+	
 </body>
 </html>
-
