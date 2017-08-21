@@ -63,23 +63,25 @@ body {
   letter-spacing: .04em;
   line-height: 2em;
   font-size: 1.4em;
-	/*overflow-y: hidden;*/
+	overflow-y: hidden;
+  overflow-x: hidden;
 	}
 
 
 
  @media only screen and (max-width: 540px) {
   body {
+    position: relative;
+    padding: 0;
+    margin: 0;
     background:url('images/BG_mobile.png');
     background-repeat: no-repeat;
     background-color: #e9e2dd;
     background-size: cover;
-    padding: 0;
-    margin: 0;
     font-size: 1.3em;
     line-height: 2.3em;
     letter-spacing: -0.01em;
-    overflow-x: hidden;
+   
   }
 
   .text-left {
