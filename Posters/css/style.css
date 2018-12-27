@@ -1,22 +1,30 @@
-h5 {
-  display: inline-block;
-  background: #F5511E;
-  border-radius: 20px;
-  /*border-top-right-radius: 10px;*/
-}
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
 
-.btn-success {
-	background-color: #F5511E;
-	border: none; 
-	margin: 0;
-}
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
 
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
 
-.btn {
-	white-space: nowrap;
-}
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
