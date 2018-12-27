@@ -1,7 +1,9 @@
 #map    { position: relative; min-height: 900px; }
 
 body {
-        background-color: #ffffe5;
+        /*background-color: #ffffe5; */
+        background-image: url("BG.png");
+        background-size: cover;
 }
 
 .district, .disputed, .state rect, .state path { stroke: #41ab5d; stroke-width: 0.3px; }
