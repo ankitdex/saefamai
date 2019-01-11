@@ -59,19 +59,24 @@ a:Hover {
 body {
   margin: 0;
   padding: 0;
+   background-image: repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 10%);
   /*background:url('images/Fan_HD.gif');*/
   background-repeat: no-repeat;
   background-color: #EEEFEB;
+
   /*background-color: white;*/
-  background-size: cover;
-	overflow-x: hidden;
+  /*background-size: cover;*/
+  overflow-x: hidden;
   font-family: Gabriela;
   font-weight: normal;
   letter-spacing: 0.02em;
   line-height: 2em;
   font-size: 1.6em;
-	/*overflow-y: hidden;*/
+  /*overflow-y: hidden;*/
   overflow-x: hidden;
+  z-index: -1;
+  
+ 
 	}
  
 
@@ -81,11 +86,13 @@ body {
     position: relative;
     padding: 0;
     margin: 0;
+    background-image: repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 10%);
+   background-color: #EEEFEB;
    /* background:url('images/BG_mobile.png');
-    background-repeat: no-repeat;*/
-    background-color: #ffffff;
+    /*background-repeat: no-repeat;*/
+   /* background-color: #ffffff;*/*/
     /*background-size: cover;*/
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 1em;
     }
 
@@ -99,7 +106,7 @@ body {
 }
 
 .top {
-	padding: 6% 0 0 5%;
+
   margin: 0;
   line-height: 1.45em;
   
@@ -116,45 +123,62 @@ body {
 }
 
 
+
+.dotted {
+  padding: 11em 0 0 0;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2), transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2), transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2), transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2), transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 20px 20px;
+}
+  
+
+
+
+
 </style>
 
 
 <body>
 
 
-
+<!-- <div class="dotted"></div> -->
 <div class="container-fluid top">
 
+	
 
-  <div class="row">
+  <div class="dotted">
 
     <div class="container text-left">
-    <p style="letter-spacing: 0.02em; font-size: 1.3em; color: #ba7d99; font-weight: 900; font-family: Quicksand; opacity: 1">Portfolio</p>
-    <p style="letter-spacing: 0.05em; font-size: 1em; color: #ba7d99; font-weight: 900; font-family: Quicksand; opacity: 1">December 18'</p><br><br><br><br>
-        <a target="_blank" href="https://www.saefamai.com//D3/" title="India Literacy Map Interactive">Data Visualization</a><br>
+    <p style="letter-spacing: 0.1em; font-size: 1.2em; color: #ba7d99; font-weight: 900; font-family: Quicksand; opacity: 1;">PORTFOLIO</p>
+    <p style="letter-spacing: 0.1em; font-size: 1em; color: #ba7d99; font-weight: 900; font-family: Quicksand; opacity: 1">DECEMBER 18'</p><br><br><br><br>
+        <a target="_blank" href="https://www.saefamai.com//D3/" title="India Literacy Map Interactive" style="font-size: 1.5em;">Data Visualization</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">An interactive map showcasing Literacy of India.</p><br>
-        <a target="_blank" href="https://medium.com/@Saefamai/making-of-typito-53695957d892" title="Online Video Tool">TYPITO Video Editor</a>
+        <a target="_blank" href="https://medium.com/@Saefamai/making-of-typito-53695957d892" title="Online Video Tool" style="font-size: 1.5em;">Video Editor</a>
         <a target="_blank" href="https://typito.com/templates" style="color: #ba7d99">[<em>Try it out</em>]</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">A super friendly online video tool with animated templates & sound to help create & edit videos.</p><br>
-     	  <a target="_blank" href="https://medium.com/@Saefamai/automation-that-controls-your-house-d6ff2e7ef3d0" title="Case-study">Home-Automation</a>
+     	  <a target="_blank" href="https://medium.com/@Saefamai/automation-that-controls-your-house-d6ff2e7ef3d0" title="Case-study" style="font-size: 1.5em">Home-Automation</a>
         <a target="_blank" href="https://vimeo.com/147748933?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=28749" style="color: #ba7d99">[<em>Watch product video</em>]</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">A three-dimensional home automation app for iOS & Android that lets you control your day-to-day appliances from anywhere.</p><br>
-        <a target="_blank" href="https://medium.com/@Saefamai/custom-terrain-maps-for-the-living-labyrinth-f03ca35dfaf" title=" Case-study">The Living Labyrinth</a>
+        <a target="_blank" href="https://medium.com/@Saefamai/custom-terrain-maps-for-the-living-labyrinth-f03ca35dfaf" title=" Case-study" style="font-size: 1.5em">The Living Labyrinth</a>
         <a target="_blank" href="http://www.amazon.in/Living-Labyrinth-Ian-Stewart/dp/1535298421/ref=sr_1_2?ie=UTF8&qid=1502575580&sr=8-2&keywords=the+living+labyrinth+tim+poston" style="color: #ba7d99" title="Buy">[<em>Buy on amazon</em>]</a><br>
-        <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">How two mathematicians together visualized a planet, unlike Earth and gave it the form of a book.</p><br>
-        <a target="_blank" href="https://medium.com/@Saefamai/explaining-the-problem-properly-d18db8281a37" title="Case-study">Explaining the Problem Properly </a><br>
+        <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">How two mathematicians together visualized a planet, unlike Earth and gave it the form of a book.</p><br><br><br>
+        <a target="_blank" href="https://medium.com/@Saefamai/explaining-the-problem-properly-d18db8281a37" title="Case-study" style="font-size: 1.5em">Explaining the Problem Properly </a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">Language localization in India. Was the Internet created only for english speakers?</p><br>
-        <a target="_blank" href="https://medium.com/@Saefamai/visual-design-with-indic-languages-first-steps-56c4501bfcde" title="Case-study">Visual Design with Indic Languages</a><br>
+        <a target="_blank" href="https://medium.com/@Saefamai/visual-design-with-indic-languages-first-steps-56c4501bfcde" title="Case-study" style="font-size: 1.5em">Visual Design with Indic Languages</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .01em; font-family: Gabriela; font-weight: normal;">MacOS vs Windows on Rendering Text.</p><br>
         <!-- <a title="Case-study">Landing pages </a> -->
         
-        <a target="_blank" href="https://projects.invisionapp.com/share/32NHQZI8BUR#/screens/312512025_CEO_-_1-5_-_10-100_-_read_-_monthly_-_email" title="Working prototype">Close.io <em>Invision Mock</em></a><br>
+        <a target="_blank" href="https://projects.invisionapp.com/share/32NHQZI8BUR#/screens/312512025_CEO_-_1-5_-_10-100_-_read_-_monthly_-_email" title="Working prototype" style="font-size: 1.5em">Close.io <em>Invision Mock</em></a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">Rethinking Google forms to personalize content on websites.</p><br>
-        <a target="_blank" href="https://www.saefamai.com//nritya/" title="Landing page">Nrityagram</a><br>
-        <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">A Dance Village.</p><br>
-        <a target="_blank" href="https://www.saefamai.com//Posters" style="opacity: 1">Artworks & Posters</a><br>
+        <a target="_blank" href="https://www.saefamai.com//nritya/" title="Landing page" style="font-size: 1.5em">Nrityagram</a><br>
+        <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">A Dance Village.</p><br><br><br>
+        <a target="_blank" href="https://www.saefamai.com//Posters" style="opacity: 1; font-size: 1.5em">Artworks & Posters</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">Stills from projects that required custom graphics.</p><br>
-        <a target="_blank" href="https://www.facebook.com/Scale-Models-India-230242294187876/" title="facebook page" style="opacity: 1">Scale Modelling</a><br>
+        <a target="_blank" href="https://www.facebook.com/Scale-Models-India-230242294187876/" title="facebook page" style="opacity: 1; font-size: 1.5em">Scale Modelling</a><br>
         <p style="color: #9B9B9B; font-size: 1em; letter-spacing: .025em; font-family: Gabriela; font-weight: normal;">A personal hobby of making military aircrafts.</p>
         <!-- <a target="_blank" href="" title="Soon" style="opacity: 0.4">Shortpitch <em>Live cricket commentary</em></a> -->
         <!-- <a target="_blank" href="https://shortpitch.live/" style="color: #ba7d99; opacity: 0.4">[<em>prototype</em>]</a><br> -->
